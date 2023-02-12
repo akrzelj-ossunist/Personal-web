@@ -16,61 +16,73 @@ import TailwindImg from "@/public/tailwind-css.svg";
 const TechStack: React.FC = () => {
   const techStack = [
     {
+      key: 1,
       image: <NextJsImg className="w-[42px] h-[42px]" />,
       name: "NextJS",
       type: "Web development",
     },
     {
+      key: 2,
       image: <ReactImg className="w-[42px] h-[42px]" />,
       name: "ReactJS",
       type: "Web development",
     },
     {
+      key: 3,
       image: <JSImg className="w-[42px] h-[42px]" />,
       name: "JavaScript",
       type: "Web development",
     },
     {
+      key: 4,
       image: <TailwindImg className="w-[42px] h-[42px]" />,
       name: "TailwindCSS",
       type: "Web designe",
     },
     {
+      key: 5,
       image: <CSSImg className="w-[42px] h-[42px]" />,
       name: "CSS",
       type: "Web designe",
     },
     {
+      key: 6,
       image: <TypescriptImg className="w-[42px] h-[42px]" />,
       name: "Typescript",
       type: "Web development",
     },
     {
+      key: 7,
       image: <Formik className="w-[42px] h-[42px]" />,
       name: "Formik",
       type: "Library",
     },
     {
+      key: 8,
       image: <YupImg className="w-[42px] h-[42px]" />,
       name: "Yup",
       type: "Library",
     },
     {
+      key: 9,
       image: <EmailJS className="w-[42px] h-[42px]" />,
       name: "EmailJs",
       type: "Library",
     },
     {
+      key: 10,
       image: <NextAuthtJS className="w-[42px] h-[42px]" />,
       name: "AuthJs",
       type: "Library",
     },
     {
+      key: 11,
       image: <ReactChartJS className="w-[42px] h-[42px]" />,
       name: "ChartJs 2",
       type: "Library",
     },
     {
+      key: 12,
       image: <ReactQuery />,
       name: "React Query",
       type: "Library",
@@ -85,7 +97,10 @@ const TechStack: React.FC = () => {
       <div className="flex flex-wrap w-[700px] justify-center mt-5 phone:w-full text-left">
         {techStack.map((stack) => {
           return (
-            <div className="desktop:w-[300px] w-full h-[80px] p-4 bg-white m-2 rounded-lg flex items-center border-[1px] border-gray-200 hover:-translate-y-2 hover:shadow-md ease-in-out duration-500">
+            <div
+              key={stack.key}
+              className="desktop:w-[300px] w-full h-[80px] p-4 bg-white m-2 rounded-lg flex items-center border-[1px] border-gray-200 hover:-translate-y-2 hover:shadow-md ease-in-out duration-500"
+            >
               <div>{stack.image}</div>
               <div className="flex flex-col ml-5">
                 <p className="text-blue-600 font-semibold">{stack.name}</p>
