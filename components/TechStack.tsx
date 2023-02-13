@@ -91,10 +91,10 @@ const TechStack: React.FC = () => {
   return (
     <div className="flex w-full flex-col items-center text-center mt-10">
       <p className="font-semibold text-4xl mb-4">Tech Stack</p>
-      <p className="text-xl text-gray-500 w-[450px] phone:w-auto phone:m-1">
+      <p className="text-xl text-gray-500 w-auto phone:w-auto phone:m-1">
         A list of my favorite tools and libraries that I use on a regular basis.
       </p>
-      <div className="flex flex-wrap w-[700px] justify-center mt-5 phone:w-full text-left">
+      <div className="flex flex-wrap w-auto justify-center mt-5 phone:w-full text-left">
         {techStack.map((stack) => {
           return (
             <div

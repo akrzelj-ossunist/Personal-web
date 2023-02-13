@@ -12,9 +12,9 @@ module.exports = {
     screens: {
       'phone': {"max": '375px'},
   
-      'laptop': '1024px',
+      'tablet': {"min": '376px', "max": '675px'},
   
-      'desktop': {"min": '376px'},
+      'desktop': {"min": '675px'},
     },
   },
   plugins: [],

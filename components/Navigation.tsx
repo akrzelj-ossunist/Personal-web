@@ -51,7 +51,7 @@ const Navigation: React.FC = () => {
       >
         <ContactMeForm setShowContactMe={setShowContactMe} />
       </SideNav>
-      <div className="sticky flex w-full items-center border-[1px] border-b-gray-200 top-0 left-0 justify-evenly z-30 phone:z-40 bg-white phone:justify-between">
+      <div className="sticky flex w-full items-center border-[1px] border-b-gray-200 top-0 left-0 justify-evenly z-30 phone:z-40 tablet:z-40 bg-white tablet:justify-between phone:justify-between">
         <p className="font-semibold text-2xl ml-4">Welcome</p>
         {dropNav ? (
           <Close
@@ -65,7 +65,7 @@ const Navigation: React.FC = () => {
           />
         )}
 
-        <div className="font-semibold text-xl flex items-center phone:hidden">
+        <div className="font-semibold text-xl flex items-center phone:hidden tablet:hidden">
           {links.map((link) => (
             <Link
               key={link.label}
