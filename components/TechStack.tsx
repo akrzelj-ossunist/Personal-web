@@ -2,12 +2,10 @@ import ReactQuery from "@/public/react-query.svg";
 import ReactChartJS from "@/public/react-chart-js.svg";
 import NextAuthtJS from "@/public/next-auth-js.svg";
 import EmailJS from "@/public/email-js.svg";
-import Skills from "@/public/skills.svg";
 import YupImg from "@/public/yup.svg";
 import Formik from "@/public/formik.svg";
 import TypescriptImg from "@/public/typescript-icon.svg";
 import CSSImg from "@/public/css-icon.svg";
-import HTMLImg from "@/public/html-icon.svg";
 import JSImg from "@/public/javascript-icon.svg";
 import ReactImg from "@/public/react-icon.svg";
 import NextJsImg from "@/public/next-js-icon.svg";
@@ -37,13 +35,13 @@ const TechStack: React.FC = () => {
       key: 4,
       image: <TailwindImg className="w-[42px] h-[42px]" />,
       name: "TailwindCSS",
-      type: "Web designe",
+      type: "Web design",
     },
     {
       key: 5,
       image: <CSSImg className="w-[42px] h-[42px]" />,
       name: "CSS",
-      type: "Web designe",
+      type: "Web design",
     },
     {
       key: 6,
