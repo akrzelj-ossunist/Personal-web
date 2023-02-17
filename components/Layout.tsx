@@ -6,6 +6,7 @@ const Layout: React.FC<{ children: JSX.Element }> = ({ children }) => {
   return (
     <>
       <Head>
+        <title>Antonio Krželj</title>
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
       <Navigation />
