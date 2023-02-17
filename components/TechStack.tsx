@@ -106,8 +106,8 @@ const TechStack: React.FC = () => {
             key={filter.key}
             onClick={() => setFilterTech(filter.label)}
             className={`${
-              filterTech === filter.label ? "bg-blue-300 text-white" : ""
-            } ease-in-out duration-500 px-4 py-1 bg-white rounded-xl border-[1px] border-gray-200 tablet:my-1 phone:my-1`}
+              filterTech === filter.label ? "bg-[#318CE7] text-white" : ""
+            } ease-in-out duration-500 px-4 py-1 bg-white rounded-xl border-[1px] border-gray-200 tablet:my-1 phone:my-1 hover:scale-110 hover:shadow-lg`}
           >
             {filter.label}
           </button>
