@@ -100,14 +100,16 @@ const TechStack: React.FC = () => {
       <p className="text-xl text-gray-500 w-auto phone:w-auto phone:m-1">
         A list of my favorite tools and libraries that I use on a regular basis.
       </p>
-      <div className="text-gray-400 font-medium text-lg flex w-[75%] justify-evenly my-5 flex-wrap phone:w-[95%] tablet:w-[95%]">
+      <div className="font-medium text-lg flex w-[75%] justify-evenly my-5 flex-wrap phone:w-[95%] tablet:w-[95%]">
         {filters.map((filter) => (
           <button
             key={filter.key}
             onClick={() => setFilterTech(filter.label)}
-            className={`${
-              filterTech === filter.label ? "bg-[#318CE7] text-white" : ""
-            } ease-in-out duration-500 px-4 py-1 bg-white rounded-xl border-[1px] border-gray-200 tablet:my-1 phone:my-1 hover:scale-110 hover:shadow-lg`}
+            className={`ease-in-out duration-500 px-4 py-1 rounded-xl border-[1px] border-gray-200 tablet:my-1 phone:my-1 hover:scale-110 hover:shadow-md ${
+              filterTech === filter.label
+                ? "bg-blue-300 text-white"
+                : "bg-white text-gray-400"
+            }`}
           >
             {filter.label}
           </button>
