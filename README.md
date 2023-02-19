@@ -24,18 +24,19 @@ Prerequisite: Node Package Manager (npm) download can be found <a href="https://
 ## Screenshots
 
 Home:
-![image]()
-![image]()
-![image]()
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/home-desk.png)
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/home-phone.png)
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/home-phone-2.png)
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/resp-nav.png)
 
 About:
-![image]()
-![image]()
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/about-desk.png)
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/about-phone.png)
 
 Projects:
-![image]()
-![image]()
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/projects-desk.png)
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/projects-phone.png)
 
 Contact me:
-![image]()
-![image]()
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/contactme-desk.png)
+![image](https://github.com/akrzelj-ossunist/personal-web/blob/main/public/readme-img/contactme-phone.png)

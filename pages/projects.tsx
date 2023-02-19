@@ -23,6 +23,14 @@ const Projects: React.FC = () => {
       key: 3,
       name: "Portfolio",
       href: "https://github.com/akrzelj-ossunist/portfolio",
+      madeIn: ["ReactJs", "CSS"],
+      description:
+        "This is a portfolio application built by using React.js. This is my first portfolio app and wasnt maintained for some time.",
+    },
+    {
+      key: 4,
+      name: "Personal web",
+      href: "https://github.com/akrzelj-ossunist/personal-web",
       madeIn: ["NextJS", "TailwindCSS", "Typescript", "Eslint"],
       description:
         "This is a portfolio application built by using Next.js, TailwindCSS, Typescript and libraries like formik, yup, emailjs.",
