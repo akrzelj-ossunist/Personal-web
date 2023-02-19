@@ -3,6 +3,8 @@
 This is a portfolio where you can find some useful info about myself.
 Application is built using Next.js, TailwindCSS, Typescript, and libraries like formik, yup, emailjs.
 
+You can also visit this page <a target="_blank" href="https://personal-web-inky.vercel.app">HERE</a>
+
 ## Getting started
 
 Prerequisite: Node Package Manager (npm) download can be found <a href="https://nodejs.org/en/download/">here</a>.
