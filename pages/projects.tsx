@@ -50,6 +50,22 @@ const Projects: React.FC = () => {
       description:
         "Simple quiz game where on home screen you can adjust settings of the game and then start playing.",
     },
+    {
+      key: 6,
+      name: "News app",
+      href: "https://github.com/akrzelj-ossunist/news-app",
+      madeIn: ["ReactJS", "SASS", "Typescript"],
+      description:
+        "This is a simple news app where you can see the top news and latest news from all around the world. Also, you can filter news by categories and article names.",
+    },
+    {
+      key: 6,
+      name: "Flappy bird copy",
+      href: "https://github.com/akrzelj-ossunist/flappy-bird",
+      madeIn: ["ReactJS", "SASS", "Typescript"],
+      description:
+        "Simple flappy bird copy game where player controls ball that must go through obstacles.",
+    },
   ];
   return (
     <div className="bg-slate-50">

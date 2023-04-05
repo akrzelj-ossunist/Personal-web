@@ -10,6 +10,7 @@ import JSImg from "@/public/javascript-icon.svg";
 import ReactImg from "@/public/react-icon.svg";
 import NextJsImg from "@/public/next-js-icon.svg";
 import TailwindImg from "@/public/tailwind-css.svg";
+import SASS from "@/public/sass.svg";
 import { useState } from "react";
 
 const TechStack: React.FC = () => {
@@ -86,6 +87,12 @@ const TechStack: React.FC = () => {
       image: <ReactQuery />,
       name: "React Query",
       type: "Library",
+    },
+    {
+      key: 13,
+      image: <SASS className="w-[42px] h-[42px]" />,
+      name: "SASS",
+      type: "Web design",
     },
   ];
   const filters = [

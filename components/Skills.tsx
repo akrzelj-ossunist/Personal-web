@@ -10,6 +10,7 @@ const Skills: React.FC = () => {
       "HTML/CSS",
       "ReactJS",
       "NextJS",
+      "SASS",
       "Tailwind-CSS",
       "Typescript",
       "Databases",
