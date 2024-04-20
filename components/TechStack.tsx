@@ -1,8 +1,8 @@
 import ReactQuery from "@/public/react-query.svg";
-import ReactChartJS from "@/public/react-chart-js.svg";
-import NextAuthtJS from "@/public/next-auth-js.svg";
-import EmailJS from "@/public/email-js.svg";
-import YupImg from "@/public/yup.svg";
+import DockerImg from "@/public/docker.svg";
+import SpringImg from "@/public/spring.svg";
+import PostgreSQLImg from "@/public/postgresql.svg";
+import JavaImg from "@/public/java.svg";
 import Formik from "@/public/formik.svg";
 import TypescriptImg from "@/public/typescript-icon.svg";
 import CSSImg from "@/public/css-icon.svg";
@@ -60,27 +60,27 @@ const TechStack: React.FC = () => {
     },
     {
       key: 8,
-      image: <YupImg className="w-[42px] h-[42px]" />,
-      name: "Yup",
-      type: "Library",
+      image: <JavaImg className="w-[42px] h-[42px]" />,
+      name: "Java",
+      type: "Web development",
     },
     {
       key: 9,
-      image: <EmailJS className="w-[42px] h-[42px]" />,
-      name: "EmailJs",
-      type: "Library",
+      image: <PostgreSQLImg className="w-[42px] h-[42px]" />,
+      name: "PostgreSQL",
+      type: "Web development",
     },
     {
       key: 10,
-      image: <NextAuthtJS className="w-[42px] h-[42px]" />,
-      name: "AuthJs",
-      type: "Library",
+      image: <SpringImg className="w-[42px] h-[42px]" />,
+      name: "Spring boot",
+      type: "Web development",
     },
     {
       key: 11,
-      image: <ReactChartJS className="w-[42px] h-[42px]" />,
-      name: "ChartJs 2",
-      type: "Library",
+      image: <DockerImg className="w-[42px] h-[42px]" />,
+      name: "Docker",
+      type: "Web development",
     },
     {
       key: 12,
@@ -116,8 +116,7 @@ const TechStack: React.FC = () => {
               filterTech === filter.label
                 ? "bg-blue-300 text-white"
                 : "bg-white text-gray-400"
-            }`}
-          >
+            }`}>
             {filter.label}
           </button>
         ))}
@@ -127,8 +126,7 @@ const TechStack: React.FC = () => {
           return filterTech === stack.type ? (
             <div
               key={stack.key}
-              className="desktop:w-[300px] w-full h-[80px] p-4 bg-white m-2 rounded-lg flex items-center border-[1px] border-gray-200 hover:-translate-y-2 hover:shadow-md ease-in-out duration-500"
-            >
+              className="desktop:w-[300px] w-full h-[80px] p-4 bg-white m-2 rounded-lg flex items-center border-[1px] border-gray-200 hover:-translate-y-2 hover:shadow-md ease-in-out duration-500">
               <div>{stack.image}</div>
               <div className="flex flex-col ml-5">
                 <p className="text-blue-600 font-semibold">{stack.name}</p>
@@ -141,8 +139,7 @@ const TechStack: React.FC = () => {
             filterTech === "All" && (
               <div
                 key={stack.key}
-                className="desktop:w-[300px] w-full h-[80px] p-4 bg-white m-2 rounded-lg flex items-center border-[1px] border-gray-200 hover:-translate-y-2 hover:shadow-md ease-in-out duration-500"
-              >
+                className="desktop:w-[300px] w-full h-[80px] p-4 bg-white m-2 rounded-lg flex items-center border-[1px] border-gray-200 hover:-translate-y-2 hover:shadow-md ease-in-out duration-500">
                 <div>{stack.image}</div>
                 <div className="flex flex-col ml-5">
                   <p className="text-blue-600 font-semibold">{stack.name}</p>

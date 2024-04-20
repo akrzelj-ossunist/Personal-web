@@ -10,7 +10,7 @@ const Education: React.FC = () => {
       image: soss,
       field: "Bachelor of Science (B.S.) - Information technology",
       school: "University department of professional studies, Split",
-      date: "09.2020 - Present",
+      date: "09.2020 - Ongoing",
     },
     {
       key: 2,
@@ -33,8 +33,7 @@ const Education: React.FC = () => {
           return (
             <div
               key={job.key}
-              className="border-[1px] relative border-gray-200 p-2 phone:p-5 rounded-lg flex items-center mb-4 hover:-translate-y-2 hover:shadow-lg ease-in-out duration-500 bg-white phone:shadow-md"
-            >
+              className="border-[1px] relative border-gray-200 p-2 phone:p-5 rounded-lg flex items-center mb-4 hover:-translate-y-2 hover:shadow-lg ease-in-out duration-500 bg-white phone:shadow-md">
               <Image
                 src={job.image}
                 alt="job"

@@ -1,4 +1,5 @@
 import locastic from "@/public/locastic.png";
+import maurerLogo from "@/public/MaurerElectronicsSplit_Logo.webp";
 import Image from "next/image";
 import Job from "@/public/job.svg";
 
@@ -14,6 +15,23 @@ const Career: React.FC = () => {
       description:
         "Learning and creating websites from scratch using Nextjs framework with typescript and style with tailwind CSS.From libraries I was using formik, yup, react-query, react-table, react-chartjs-2 and other.",
     },
+    {
+      key: 2,
+      image: maurerLogo,
+      job: "Software Development Intern",
+      firm: "Maurer Electronics GmbH",
+      date: "01.2024 - Ongoing",
+      languages: [
+        "Java",
+        "Spring boot",
+        "PostgreSQL",
+        "Docker",
+        "ReactJs",
+        "JUnit",
+      ],
+      description:
+        "This internship opportunity offers hands-on experience in software development, focusing on implementing technologies including Java, Spring Boot, PostgreSQL, Docker, and React. As an intern, you'll work on a dedicated project, applying the skills and knowledge gained during your internship. Collaborate closely with mentors and team members to design, develop, and deploy solutions while gaining practical insights into industry-standard tools and methodologies. This role emphasizes learning, problem-solving, and teamwork in a supportive environment. Ideal for students passionate about software development, seeking to expand their skill set through real-world projects.",
+    },
   ];
   return (
     <div className="flex flex-col">
@@ -28,8 +46,7 @@ const Career: React.FC = () => {
           return (
             <div
               key={job.key}
-              className="border-[1px] relative border-gray-200 p-2 rounded-lg flex items-center hover:-translate-y-2 hover:shadow-lg ease-in-out duration-500 bg-white phone:shadow-lg"
-            >
+              className="border-[1px] my-4 relative border-gray-200 p-2 rounded-lg flex items-center hover:-translate-y-2 hover:shadow-lg ease-in-out duration-500 bg-white phone:shadow-lg">
               <Image
                 src={job.image}
                 alt="job"
@@ -43,8 +60,7 @@ const Career: React.FC = () => {
                     return (
                       <p
                         className="text-xs text-gray-700 bg-blue-100 py-[2px] rounded-md mr-1 px-2 my-1 h-[20px]"
-                        key={language}
-                      >
+                        key={language}>
                         {language}
                       </p>
                     );

@@ -14,8 +14,9 @@ const Skills: React.FC = () => {
       "Tailwind-CSS",
       "Typescript",
       "Databases",
-      "NodeJS",
-      "Python",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
     ],
     language: ["English", "Croatian"],
     personal: [
